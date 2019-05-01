@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel= "stylesheet" href="source.css" type="text/css"/>
+    <title>First Project</title>
+  </head>
+  <body>
+      <form id= "calcScreen">
+        <input name = "whiteBoard" id="inputScreen">
+        </form>
+      <div class = "button-group">
+        <input type="button" value="1" onclick="numClick(this.value)">
+        <input type="button" value="2" onclick="numClick(this.value)">
+        <input type="button" value="3" onclick="numClick(this.value)">
+        <input type="button" value= "+" onclick="sumNum(this.value)">
+      </div>
+      <div class = "button-group">
+        <input type="button" value= "4" onclick="numClick(this.value)">
+        <input type="button" value= "5" onclick="numClick(this.value)">
+        <input type="button" value= "6" onclick="numClick(this.value)">
+        <input type="button" value= "-" onclick="diffVal(this.value)">
+
+      </div>
+      <div class = "button-group">
+        <input type="button" value= "7" onclick="numClick(this.value)">
+        <input type="button" value= "8" onclick="numClick(this.value)">
+        <input type="button" value= "9" onclick="numClick(this.value)">
+        <input type="button" value= "*" onclick="MultNum(this.value)">
+      </div>
+      <div class = "pemdas">
+        <input type="button"  value = "reset" onclick="clearVal()">
+        <input type="button"  value= "=" onclick="answer(this.value)">
+        <input type="button"  value= "/" onclick="divNum(this.value)">
+      </div>
+    <script type="text/javascript" src="source.js"></script>
+  </body>
+</html>
